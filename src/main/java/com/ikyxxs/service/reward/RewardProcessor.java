@@ -35,7 +35,6 @@ public interface RewardProcessor {
      * @param rewardSceneType 激励奖励场景
      * @param userId 用户id
      * @param rewardId 激励奖励id
-     * @return 奖励
      */
     void obtainRewardPrize(Integer rewardSceneType, Long userId, String rewardId);
 }

@@ -11,8 +11,8 @@ public enum RewardSceneType {
     REWARD_VIDEO(1, "激励视频"),
     ;
 
-    private Integer type;
-    private String desc;
+    private final Integer type;
+    private final String desc;
 
     public Integer getType() {
         return type;

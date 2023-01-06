@@ -46,7 +46,6 @@ public class RewardFactory {
      * @param rewardSceneType 奖励场景
      * @param userId 用户id
      * @param rewardId 奖励id
-     * @return 奖励
      */
     public void obtainRewardPrize(Integer rewardSceneType, Long userId, String rewardId) {
         rewardProcessorMap.get(rewardSceneType).obtainRewardPrize(rewardSceneType, userId, rewardId);

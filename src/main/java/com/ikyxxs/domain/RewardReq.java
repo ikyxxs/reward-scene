@@ -11,10 +11,20 @@ import java.io.Serializable;
 public class RewardReq implements Serializable {
     private static final long serialVersionUID = -1217003659841731170L;
 
+    /**
+     * 激励奖励场景类型
+     * @see com.ikyxxs.enums.RewardSceneType
+     */
     private Integer rewardSceneType;
 
+    /**
+     * 用户ID
+     */
     private Long userId;
 
+    /**
+     * 激励ID
+     */
     private String rewardId;
 
     public Integer getRewardSceneType() {
